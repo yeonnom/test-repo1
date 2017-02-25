@@ -15,16 +15,13 @@ const int echoPin1 = 3;
 int motor = 6;
 int door_led = 9;
 //**********************************
-
 int pinDHT11 = 4; //DHT
-
 
 // Objects
 Servo myservo; //Heimdal
 LiquidCrystal_I2C lcd(0x27,16,2); //poseidon
 // set the LCD address to 0x27 for a 16 chars and 2 line display
-SimpleDHT11 dht11; //
-
+SimpleDHT11 dht11; // 
 //variables
 long duration1, distance1; // Heimdal
 
